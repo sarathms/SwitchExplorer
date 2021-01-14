@@ -29,3 +29,10 @@ jobs:
 
       - name: Build extension
         run: yarn build
+
+      - name: Upload build as artifact
+        uses: actions/upload-artifact@v2
+        if: ${{ success() }}
+        with:
+          name: SwitchExplorer-ext
+          path: web-ext-artifacts/switchexplorer-*.zip
