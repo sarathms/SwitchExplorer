@@ -1,0 +1,14 @@
+{
+  "name": "SwitchExplorer",
+  "version": "0.0.1",
+  "repository": "git@github.com:sarathms/SwitchExplorer.git",
+  "author": "Sarath M S <sarath.ms@gmail.com>",
+  "license": "AGPLv3",
+  "dependencies": {
+    "web-ext": "^5.5.0"
+  },
+  "scripts": {
+    "dev": "web-ext run",
+    "build": "web-ext build --overwrite-dest"
+  }
+}
