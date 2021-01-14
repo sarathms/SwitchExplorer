@@ -16,3 +16,16 @@ jobs:
 
       - name: Run lint
         run: yarn run web-ext lint
+
+  build:
+    name: Build Extension
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install deps
+        run: yarn install --frozen-lockfile
+
+      - name: Build extension
+        run: yarn build
