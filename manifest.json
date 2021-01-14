@@ -3,6 +3,12 @@
   "name": "SwitchExplorer",
   "description": "Switches from OONI Explorer in local to production and vice-versa",
   "version": "0.0.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "switchexplorer-ext@openobservatory.org",
+      "strict_min_version": "60.0"
+    }
+  },
   "icons": {
     "64": "icons/icon.svg"
   },
