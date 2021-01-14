@@ -1,4 +1,4 @@
-name: Switch Explorer web extension
+name: Build
 on:
   push:
     branches: [master]
