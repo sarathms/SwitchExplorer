@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "SwitchExplorer",
   "description": "Switches from OONI Explorer in local to production and vice-versa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "browser_specific_settings": {
     "gecko": {
       "id": "switchexplorer-ext@openobservatory.org",
